@@ -2070,6 +2070,7 @@ section {
   font-weight: 400;
   font-size: 20px;
   line-height: 104.5%;
+  border-radius: 30px;
 }
 .viewButton {
   height: 60px;
@@ -2080,6 +2081,7 @@ section {
   font-weight: 400;
   font-size: 20px;
   line-height: 104.5%;
+  border-radius: 30px;
 }
 .getTouch {
   font-family: "Archivo";
@@ -2192,5 +2194,8 @@ section {
 @media only screen and (min-width: 1500px) {
   .manImage {
     width: 35%;
+  }
+  .twoButton{
+    margin-top: 100px;
   }
 }
