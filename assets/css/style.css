@@ -1725,7 +1725,7 @@ section {
   background: white;
   padding-top: 40px !important;
   border-radius: 20px 20px 0px 0px;
-  margin-top: -50px;
+  margin-top: -60px;
 }
 
 #footer .footer-newsletter {
@@ -2144,7 +2144,8 @@ section {
 }
 .v1 {
   border-left: 1px solid #ffffff;
-  height: 60vh;
+  /* height: 60vh; */
+  margin-bottom: 5%;
 }
 .contactUsDir {
   color: #ffffff;
