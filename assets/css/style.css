@@ -2158,17 +2158,20 @@ section {
 .contactmargin{
   margin-top: 12rem;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1300px) {
   .manImage {
-    width: 35%;
+    width: 100%;
+  }
+  #blackviewButton{
+    margin-top: 2rem;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .example {
-    background: green;
-  }
+  /* #blackviewButton{
+    margin-top: 2rem;
+  } */
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -2192,10 +2195,18 @@ section {
   }
 }
 @media only screen and (min-width: 1500px) {
-  .manImage {
+  /* .manImage {
     width: 35%;
-  }
+  } */
   .twoButton{
     margin-top: 100px;
   }
+  
+}
+
+.slick-slide{
+  margin: 0 10px;
+}
+.slick-slide img{
+  width: 100%;
 }
