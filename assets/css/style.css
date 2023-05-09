@@ -1834,7 +1834,7 @@ section {
 #footer .footer-top .footer-links ul {
   /* list-style: none; */
   padding: 0;
-  margin-left: 60px;
+  /* margin-left: 60px; */
   font-size: 20px;
   font-family: "Archivo";
   font-style: normal;
@@ -2145,7 +2145,7 @@ section {
 #teleImage {
   margin-top: -3rem;
 }
-.border-right{
+.border-right {
   border-right: 2px solid white;
 }
 .v1 {
@@ -2169,52 +2169,62 @@ section {
   font-size: 30px;
   line-height: 220%;
 }
-.contactmargin{
+.contactmargin {
   margin-top: 12rem;
 }
 @media only screen and (max-width: 1300px) {
-  .manImage {
+  /* .manImage {
     width: 100%;
-  }
+  } */
   /* #blackviewButton{
     margin-top: 2rem;
   } */
-  #aboutUsMargin{
+  #aboutUsMargin {
     margin-top: 2rem;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  /* #rebuildImage{
-    border-radius: 20px 20px 20px 20px !important;
-  } */
- 
+@media only screen and (max-width: 800px) {
+  .requestButton {
+    height: 40px;
+    font-size: 15px;
+  }
+  .viewButton {
+    height: 40px;
+    font-size: 15px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .example {
-    background: blue;
+/* @media only screen and (min-width: 768px) {
+ #aboutUsMargin{
+    width: 100%;
   }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
-  #blackviewButton{
+} */
+@media only screen and (max-width: 767px) {
+  #blackviewButton {
     margin-top: 2rem;
   }
-  #talk{
-    padding: 0;
-    margin: 0;
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  /* #blackviewButton{
+    margin-top: 2rem;
+  } */
+  #talk {
+    padding: 5px;
+    margin: -5px;
+    background-color: #08767e;
+    color: white;
   }
-  .contactmargin{
+  .contactmargin {
     margin-top: 0;
   }
-  .contactUsDir{
+  .contactUsDir {
     justify-content: center;
   }
-  #contactDirect{
+  #contactDirect {
     /* display: flex; */
     justify-content: center;
   }
@@ -2226,24 +2236,41 @@ section {
     border-radius: 20px;
     margin-top: 20px;
   }
-  #rebuildImage{
+  #rebuildImage {
     border-radius: 20px 20px 20px 20px !important;
   }
-
 }
 @media only screen and (min-width: 1500px) {
   /* .manImage {
     width: 35%;
   } */
-  .twoButton{
+  .twoButton {
     margin-top: 100px;
   }
-  
 }
 
-.slick-slide{
+.slick-slide {
   margin: 0 10px;
 }
-.slick-slide img{
+.slick-slide img {
   width: 100%;
+}
+#helloId {
+  /* font-family: sans-serif; */
+  /* margin: 100px auto; */
+  /* text-align: center; */
+  color: black;
+  max-width: 100%;
+  position: relative;
+}
+#helloId:after {
+  margin-left: auto;
+  content: "";
+  display: block;
+  width: 80%;
+  height: 2px;
+  background:black;
+  right: 0;
+  top: 50%;
+  position: absolute;
 }
