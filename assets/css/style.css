@@ -58,10 +58,11 @@ body {
 }
 #contact {
   background-image: url("../img/blackLeather.svg");
-  margin-top: 2%;
-  margin-bottom: 2%;
+  /* margin-top: 2%;
+  margin-bottom: 2%; */
   border-radius: 20px 20px 0px 0px;
-  padding-top: 5%;
+  background-color: black;
+  /* padding-top: 5%; */
 }
 #rebuild {
   background-image: url("../img/icon4.svg");
@@ -2143,6 +2144,9 @@ section {
 }
 #teleImage {
   margin-top: -3rem;
+}
+.border-right{
+  border-right: 2px solid white;
 }
 .v1 {
   border-left: 1px solid #ffffff;
