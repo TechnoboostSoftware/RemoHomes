@@ -2269,7 +2269,7 @@ section {
   display: block;
   width: 80%;
   height: 2px;
-  background:black;
+  background:rgba(106, 106, 106, 0.4);
   right: 0;
   top: 50%;
   position: absolute;
