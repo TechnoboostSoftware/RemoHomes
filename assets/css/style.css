@@ -24,8 +24,8 @@ body {
   margin-top: 2%;
   margin-bottom: 2%; */
   /* padding: 0%; */
-  margin-left: -10px;
-  margin-right: -10px;
+  /* margin-left: -10px;
+  margin-right: -10px; */
 }
 .utubeVide {
   border-radius: 20px;
@@ -197,7 +197,7 @@ h6 {
 #header {
   /* transition: all 0.5s; */
   /* z-index: 997; */
-  padding: 15px 0;
+  /* padding: 15px 0; */
   background-color: black;
 }
 
