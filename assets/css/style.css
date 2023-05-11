@@ -40,11 +40,12 @@ body {
 #choice {
   background-image: url("../img/image1.svg");
   border-radius: 20px 20px 0px 0px;
+  background-color: black;
 }
 #perfectChoice {
   margin-left: 2%;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  /* margin-top: 2%;
+  margin-bottom: 2%; */
 }
 /* #services{
   background-image: url("../img/whiteBackground.svg");
@@ -93,7 +94,7 @@ body {
 } */
 
 a {
-  color: #47b2e4;
+  color: white;
   text-decoration: none;
 }
 
@@ -101,6 +102,14 @@ a:hover {
   color: #73c5eb;
   text-decoration: none;
 }
+
+#footer a{
+  color: #777777;
+}
+#footer a:hover {
+  color: #73c5eb;
+}
+
 
 h1,
 h2,
