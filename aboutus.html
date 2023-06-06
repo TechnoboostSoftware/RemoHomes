@@ -11,7 +11,6 @@
 
         <!-- Favicons -->
         <link href="assets/img/favicon.svg" rel="icon">
-        <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
         <!-- Google Fonts -->
         <link
@@ -21,28 +20,28 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
             integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
             crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
 
-        <!-- Vendor CSS Files -->
-        <!-- <link href="assets/vendor/aos/aos.css" rel="stylesheet"> -->
         <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-        <!-- <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"> -->
-        <!-- <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"> -->
-        <!-- <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet"> -->
-        <!-- <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
+
         <link
             href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&display=swap"
             rel="stylesheet">
         <!-- Template Main CSS File -->
-        <link href="assets/css/aboutus.css" rel="stylesheet">
+        <link href="assets/css/problem.css" rel="stylesheet">
 
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
-        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+            integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
-        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+            integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <link href="assets/css/common.css" rel="stylesheet">
     </head>
@@ -50,7 +49,7 @@
     <body>
 
         <!-- ############################# NAVBAR ##############################-->
-        <nav class="navbar navbar-expand-md bg-light py-0" style="position: sticky;top: 0px;z-index: 100;">
+        <nav class="navbar navbar-expand-md bg-light px-md-5 px-2" style="position: sticky;top: 0px;z-index: 100;">
             <div class=" container-fluid">
                 <a class="navbar-brand" href="index.html"><img src="assets/img/blackLogo.svg"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -60,29 +59,114 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 align-items-md-center align-items-start  ps-3 mb-lg-0">
-                        <li class="nav-item me-5">
-                            <a class="p-0 fs-20 fWeight-400 pb-1 nav-link text-dark" href="problem.html">The Problem</a>
+                        <li class="nav-item me-4">
+                            <a class="fs-16 fWeight-400 pb-1 nav-link text-dark" href="problem.html">The Problem</a>
                         </li>
-                        <li class="nav-item me-5">
-                            <a class="p-0 fs-20 fWeight-400 pb-1 nav-link text-dark" href="solution.html">Our
+                        <li class="nav-item me-4">
+                            <a class="fs-16 fWeight-400 pb-1 nav-link text-dark " href="solution.html">Our
                                 Solution</a>
                         </li>
-                        <li class="nav-item me-5">
-                            <a class="p-0 fs-20 fWeight-400 pb-1 nav-link text-dark" href="how.html">How does it
+                        <li class="nav-item me-4">
+                            <a class="fs-16 fWeight-400 pb-1 nav-link text-dark " href="how.html">How does it
                                 work?</a>
                         </li>
-                        <li class="nav-item me-5">
-                            <a class="p-0 fs-20 fWeight-400 pb-1 nav-link text-dark" href="whyReMo.html">Why Remo</a>
+                        <li class="nav-item me-4">
+                            <a class="fs-16 fWeight-400 pb-1 nav-link text-dark " href="whyReMo.html">Why Remo</a>
                         </li>
-                        <li class="nav-item me-5">
-                            <a class="p-0 fs-20 fWeight-400 pb-1 nav-link text-dark" href="aboutus.html">About us</a>
+                        <li class="nav-item me-4">
+                            <a class="fs-16 fWeight-400 pb-1 nav-link text-dark " href="aboutus.html">About us</a>
                         </li>
                         <li class="nav-item ms-5"><a href="#contact" class="text-decoration-none">
                                 <button class="nav-link rounded-pill px-3 py-2 " id="talk" onclick="letTalk()"><img
-                                        src="assets/img/thumb.svg" alt="">Let's
+                                        src="assets/img/thumb.svg">Let's
                                     Talk</button></a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+
+        <!-- ############################# problemText ##############################-->
+        <section id="problemText" class="container-fluid">
+            <div class="problemText px-md-5 px-0 py-3">
+                <p class="text-light fs-40 fWeight-700 m-0">About us</p>
+            </div>
+        </section>
+
+        <footer id="footer" class="container-fluid">
+            <div class="px-md-5 px-0 pt-5">
+                <div class="row">
+                    <div class="col-md-5 col-12 text-start align-items-start">
+                        <div class="pe-md-4 pe-0">
+                            <img src="assets/img/icon2.svg" class="100%">
+                            <p class="fs-16 fWeight-200 pe-4">
+                                We are not just building homes but instead taking a holistic approach required to
+                                solve the biggest problems in the world: climate change & housing affordability.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 ">
+                        <p class="fWeight-500 fs-20 mb-md-5 mb-3">Links</p>
+                        <ul class="list-unstyled mb-2">
+                            <li class="pb-3"><a href="problem.html"
+                                    class="text-decoration-none text-dark fs-16 fWeight-300">The
+                                    Problem</a></li>
+                            <li class="pb-3"><a href="solution.html"
+                                    class="text-decoration-none text-dark fs-16 fWeight-300">Our
+                                    Solution</a></li>
+                            <li class="pb-3"><a href="how.html"
+                                    class="text-decoration-none text-dark fs-16 fWeight-300">How Does It
+                                    Work?</a></li>
+                            <li class="pb-3"><a href="whyReMo.html"
+                                    class="text-decoration-none text-dark fs-16 fWeight-300">Why
+                                    Remo?</a></li>
+                            <li class="pb-3"><a href="aboutus.html"
+                                    class="text-decoration-none text-dark fs-16 fWeight-300">About
+                                    Us</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-5 col-6">
+                        <div class="row d-flex flex-md-row flex-column">
+                            <div class="col-md-8 col-12">
+                                <p class="fWeight-500 fs-20 mb-md-5 mb-3">Contact Info</p>
+                                <ul class="list-unstyled mb-2">
+                                    <li class="mb-2 fs-16"><a href="tel:+1 (310)910-1132"
+                                            class="text-decoration-none text-dark  fWeight-300"> <img
+                                                src="assets/img/telephone1.svg" style="margin-right: 15px;"> +1
+                                            (310)
+                                            910-1132</a></li>
+                                    <li class="mb-2 fs-16"><a href="mailto: contactus@remo.homes"
+                                            class="text-decoration-none text-dark fs-16 fWeight-300"><img
+                                                src="assets/img/messageBox1.svg" style="margin-right: 15px;">
+                                            contactus@remo.homes</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <p class="fWeight-500 fs-20 mb-md-5 mb-3">Follow Us</p>
+                                <div class="footerIcon ">
+                                    <a href="https://twitter.com/remohomes"
+                                        class="text-decoration-none text-dark fs-16 fWeight-300" target="_blank"><img
+                                            src="assets/img/twiter1.svg" class="pe-2"></a>
+                                    <a href="https://www.linkedin.com/company/remo-homes/"
+                                        class="text-decoration-none text-dark fs-16 fWeight-300" target="_blank"><img
+                                            src="assets/img/linkedin1.svg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <hr class="text-light" style="border: 0.5px solid rgba(0, 0, 0, 0.6);">
+
+                <div class="footerCopyRight mx-3 mt-md-0 mt-3 text-blueFooter text-center mx-md-5 px-3">
+                    <p class="mb-0 py-3">Copyright 2023 All right reserved by <b class="text-dark">REMO HOMES</b></p>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+</html>

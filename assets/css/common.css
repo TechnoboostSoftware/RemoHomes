@@ -26,6 +26,12 @@
 }
 
 .fs-1vw {
+    font-size: 1vw;
+}
+.fs-1-2vw {
+    font-size: 1.2vw;
+}
+.fs-1-5vw {
     font-size: 1.5vw;
 }
 
@@ -63,6 +69,12 @@
     font-size: 4vw;
 }
 
+.fWeight-200 {
+    font-weight: 200;
+}
+.fWeight-300 {
+    font-weight: 300;
+}
 .fWeight-400 {
     font-weight: 400;
 }
@@ -85,4 +97,10 @@
 
 .text-justify {
     text-align: justify;
+}
+.bg-grey{
+    background: #F5F5F5;
+}
+#problemText {
+    background-image: url("../img/blackBg.svg");
 }

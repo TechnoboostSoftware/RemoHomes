@@ -597,11 +597,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  font-size: 14px;
   background: white;
-  padding-top: 40px !important;
   border-radius: 20px 20px 0px 0px;
-  margin-top: -60px;
 }
 
 #footer .footer-newsletter {
