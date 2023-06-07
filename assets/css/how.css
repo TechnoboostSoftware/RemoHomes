@@ -1,0 +1,9 @@
+.questionPill {
+    color: rgba(0, 0, 0, 0.6);
+    background: white !important;
+}
+
+.answer {
+    text-align: justify;
+    color: #484848;
+}
