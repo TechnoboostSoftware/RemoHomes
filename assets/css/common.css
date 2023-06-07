@@ -3,6 +3,10 @@
     padding: 0px;
     font-family: 'Archivo';
     font-style: normal;
+    color: #484848;
+}
+.text-grey{
+    color: #484848 !important; 
 }
 
 .fs-13 {
