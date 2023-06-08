@@ -49,9 +49,10 @@
     <body>
 
         <!-- ############################# NAVBAR ##############################-->
-        <nav class="navbar navbar-expand-md bg-light px-md-5 px-2" style="position: sticky;top: 0px;z-index: 100;">
+        <nav class="navbar navbar-expand-md bg-light px-md-5 px-4" style="position: sticky;top: 0px;z-index: 100;">
             <div class=" container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="assets/img/blackLogo.svg"></a>
+                <a class="navbar-brand d-md-inline d-none" href="index.html"><img src="assets/img/blackLogo.svg"></a>
+                <a class="navbar-brand d-md-none d-inline" href="index.html"><img src="assets/img/logo.svg"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -88,37 +89,44 @@
 
         <!-- ############################# problemText ##############################-->
         <section id="problemText" class="container-fluid">
-            <div class="problemText px-md-5 px-0 py-3">
+            <div class="problemText px-md-5 px-4 py-3">
                 <p class="text-light fs-40 fWeight-700 m-0">The Problem</p>
             </div>
         </section>
 
         <!-- ############################# Traditional  ##############################-->
         <section id="traditional " class="py-5 container-fluid">
-            <div class="row align-items-center px-md-5 px-0">
+            <div class="row align-items-center px-md-5 px-4">
                 <div class="col-md-6 col-12">
                     <div class="pe-md-3 pe-0">
                         <p class="fWeight-600 fs-30 text-dark">Traditional Construction is Not Affordable</p>
                         <p class="fWeight-200 fs-20">Housing has gotten out of reach for the middle class, especially
                             around desirable areas with well-paying jobs.</p>
-                        <p class="fWeight-400 fs-20 text-dark">"Labor-productivity growth in construction has
+                        <p class="fWeight-400 fs-20 d-md-inline d-none text-dark">"Labor-productivity growth in
+                            construction has
                             averaged only 1
                             percent
                             a year over the past two decades" - McKinsey & Company</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-12">
-                    <img src="assets/img/Traditional.svg" width="100%">
+                    <img src="assets/img/Traditional.svg" width="100%" class="pb-5 pb-md-0">
+                    <p class="fWeight-400 fs-20 text-dark d-md-none d-block ">"Labor-productivity growth in construction
+                        has
+                        averaged only 1
+                        percent
+                        a year over the past two decades" - McKinsey & Company</p>
                 </div>
             </div>
         </section>
 
 
         <!-- ############################# Consider  ##############################-->
-        <section id="consider" class="py-5 bg-grey">
-            <div class="considerText text-center container">
+        <section id="consider" class="py-5 bg-grey px-md-5 px-4">
+            <div class="considerText text-md-center text-start container-fluid">
                 <p class="fWeight-600 fs-30 text-dark">Consider this scenario</p>
-                <p class="fWeight-200 fs-20 text-justify">Whenever you order a Tesla Model 3, Elon Musk brings the parts to your
+                <p class="fWeight-200 fs-20 text-justify">Whenever you order a Tesla Model 3, Elon Musk brings the parts
+                    to your
                     front yard and starts
                     assembling them there. Isn't this absurd? This is what's happening in the construction industry. The
                     materials and building code have changed, but the construction methods have largely remained the
@@ -130,24 +138,32 @@
             <div class="container-fluid">
                 <div class="row align-items-center py-5 px-md-5 px-0">
                     <div class="col-md-6 col-12">
-                        <img src="assets/img/consider-1.svg" width="100%">
+                        <div class="d-md-none d-inline">
+                            <p class="fWeight-600 fs-30  text-dark">Annual Global CO2 Emissions</p>
+                            <p class="fWeight-400 fs-20 text-dark">Source: Global ABC Global Status Report 2021, EIA</p>
+                        </div>
+                        <img src="assets/img/consider-1.svg" width="100%" class="pb-md-0 pb-4">
                     </div>
                     <div class="col-md-6 col-12">
-                        <div class="py-2 ps-5">
-                            <p class="fWeight-600 fs-30 text-dark">Annual Global CO2 Emissions</p>
-                            <p class="fWeight-400 fs-20 text-dark">Source: Global ABC Global Status Report 2021, EIA</p>
-                            <p class="fWeight-200 fs-20 text-justify">Housing is the biggest industry in the world and arguably the
+                        <div class="py-2 ps-md-5 ps-0">
+                            <p class="fWeight-600 fs-30 d-md-block d-none text-dark">Annual Global CO2 Emissions</p>
+                            <p class="fWeight-400 fs-20 d-md-block d-none text-dark">Source: Global ABC Global Status
+                                Report 2021, EIA</p>
+                            <p class="fWeight-200 fs-20 text-justify">Housing is the biggest industry in the world and
+                                arguably the
                                 least disrupted one. Housing's combined contribution to GDP generally averages 15-18%:
                                 Residential investment (3-5% of GDP). Consumption spending on housing services (12-13%
                                 of
                                 GDP).
                             </p>
-                            <p class="fWeight-200 fs-20 text-justify">Zoning laws have recently been eased to allow higher housing
+                            <p class="fWeight-200 fs-20 text-justify">Zoning laws have recently been eased to allow
+                                higher housing
                                 density and solve housing affordability around the country, especially in California, to
                                 build accessory dwelling units ("ADUs") for use and rent. In 2019 alone, over 15,000 ADU
                                 permits were issued.
                             </p>
-                            <p class="fWeight-200 fs-20 text-justify">A new housing plan by the Biden administration offers a
+                            <p class="fWeight-200 fs-20 text-justify">A new housing plan by the Biden administration
+                                offers a
                                 proposal
                                 to lower costs for manufactured homes by expanding financing options. It would also ease
                                 barriers around approvals and construction
@@ -162,12 +178,39 @@
                         <div class="py-2 pe-5">
                             <p class="fWeight-600 fs-30 text-dark">Traditional Construction is Not Environmentally
                                 Friendly</p>
-                            <p class="fWeight-200 fs-20 text-justify">The EPA estimated 600 million tons of C&D debris were
+                            <div class="d-md-block d-none">
+                                <p class="fWeight-200 fs-20 text-justify">The EPA estimated 600 million tons of C&D
+                                    debris
+                                    were
+                                    generated in
+                                    the U.S. in 2018 alone. Examples of C&D debris include steel, wood products, drywall
+                                    and
+                                    plaster, brick and clay tile, asphalt shingles, concrete, etc.
+                                </p>
+                                <p class="fWeight-200 fs-20 text-justify">Waste bins (skips) at construction sites get
+                                    filled up every
+                                    week.
+                                    As much as 30% of the material is wasted.
+                                </p>
+                                <p class="fWeight-200 fs-20 text-justify">According to the UN Environment Program,
+                                    buildings
+                                    (Construction
+                                    and Operations) are responsible for 40% of CO2 emissions in the world.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-12">
+                        <img src="assets/img/consider-2.svg" width="100%" class="pb-md-0 pb-4">
+                        <div class="pt-md-0 pt-4 d-md-none d-block">
+                            <p class="fWeight-200 fs-20 text-justify">The EPA estimated 600 million tons of C&D debris
+                                were
                                 generated in
                                 the U.S. in 2018 alone. Examples of C&D debris include steel, wood products, drywall and
                                 plaster, brick and clay tile, asphalt shingles, concrete, etc.
                             </p>
-                            <p class="fWeight-200 fs-20 text-justify">Waste bins (skips) at construction sites get filled up every
+                            <p class="fWeight-200 fs-20 text-justify">Waste bins (skips) at construction sites get
+                                filled up every
                                 week.
                                 As much as 30% of the material is wasted.
                             </p>
@@ -177,16 +220,13 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-5 col-12">
-                        <img src="assets/img/consider-2.svg" width="100%">
-                    </div>
                 </div>
             </div>
         </section>
 
         <!-- ############################# footer ##############################-->
         <footer id="footer" class="container-fluid">
-            <div class="px-md-5 px-0 pt-5">
+            <div class="px-md-5 px-4 pt-5">
                 <div class="row">
                     <div class="col-md-5 col-12 text-start align-items-start">
                         <div class="pe-md-4 pe-0">
@@ -241,10 +281,10 @@
                                 <div class="footerIcon ">
                                     <a href="https://twitter.com/remohomes"
                                         class="text-decoration-none text-grey fs-20 fWeight-300" target="_blank"><img
-                                            src="assets/img/twiter1.svg" class="me-2 w-25"></a>
+                                            src="assets/img/twiter1.svg" class="me-2" width="20%"></a>
                                     <a href="https://www.linkedin.com/company/remo-homes/"
                                         class="text-decoration-none text-grey fs-20 fWeight-300" target="_blank"><img
-                                            src="assets/img/linkedin1.svg" class="w-25"></a>
+                                            src="assets/img/linkedin1.svg" width="20%"></a>
                                 </div>
                             </div>
                         </div>
