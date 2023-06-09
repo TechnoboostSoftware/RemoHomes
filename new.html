@@ -72,35 +72,35 @@
     </head>
 
     <body>
-
         <!-- ############################# NAVBAR ##############################-->
-        <nav id="problemText" class="navbar navbar-expand-md px-md-5 px-4" style="position: sticky;top: 0px;z-index: 100;">
+        <nav id="problemText" class="navbar navbar-expand-md px-md-5 px-2"
+            style="position: sticky;top: 0px;z-index: 100;">
             <div class="container-fluid">
-                <a class="navbar-brand d-md-inline d-none" href="index.html"><img src="assets/img/blackLogo.svg"></a>
-                <a class="navbar-brand d-md-none d-inline" href="index.html"><img src="assets/img/logo.svg"></a>
+                <a class="navbar-brand d-md-inline d-none" href="new.html"><img src="assets/img/icon.svg"></a>
+                <a class="navbar-brand d-md-none d-inline" href="new.html"><img src="assets/img/indexLogo.svg"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span><img src="assets/img/indexToggle.svg"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 align-items-md-center align-items-start  ps-3 mb-lg-0">
                         <li class="nav-item me-4">
-                            <a class="fs-16 fWeight-400 pb-1 nav-link text-dark" href="problem.html">The Problem</a>
+                            <a class="fs-16 fWeight-400 pb-1 nav-link text-light" href="problem.html">The Problem</a>
                         </li>
                         <li class="nav-item me-4">
-                            <a class="fs-16 fWeight-400 pb-1 nav-link text-dark" href="solution.html">Our
+                            <a class="fs-16 fWeight-400 pb-1 nav-link text-light" href="solution.html">Our
                                 Solution</a>
                         </li>
                         <li class="nav-item me-4">
-                            <a class="fs-16 fWeight-400 pb-1 nav-link text-dark" href="how.html">How does it
+                            <a class="fs-16 fWeight-400 pb-1 nav-link text-light" href="how.html">How does it
                                 work?</a>
                         </li>
                         <li class="nav-item me-4">
-                            <a class="fs-16 fWeight-400 pb-1 nav-link text-dark" href="whyReMo.html">Why Remo</a>
+                            <a class="fs-16 fWeight-400 pb-1 nav-link text-light" href="whyReMo.html">Why Remo</a>
                         </li>
                         <li class="nav-item me-4">
-                            <a class="fs-16 fWeight-400 pb-1 nav-link text-dark" href="aboutus.html">About us</a>
+                            <a class="fs-16 fWeight-400 pb-1 nav-link text-light" href="aboutus.html">About us</a>
                         </li>
                         <li class="nav-item ms-5"><a href="#contact" class="text-decoration-none">
                                 <button class="nav-link rounded-pill px-3 py-2 text-dark" id="talk"
@@ -114,10 +114,11 @@
 
         <!-- ############################# Create ############################## -->
         <section id="problemText" class="container-fluid">
-            <div class="px-md-5 px-4" style="margin-top: 2%;">
+            <div class="px-md-5 px-2">
                 <div class="row py-3" style="justify-content: center; align-items: center;">
-                    <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 text-light">
-                        <h1 class="fs-50 fWeight-300 text-light">We Create Dream Home Into Reality
+                    <div class="col-lg-6 d-flex flex-column justify-content-center  text-light p-0">
+                        <h1 class="fs-50 fWeight-600 text-light text-md-start text-center pe-md-5 pe-0">We Create Dream
+                            Home Into Reality
                         </h1>
                     </div>
                     <div class="col-lg-6">
@@ -127,8 +128,8 @@
                             underrepresented communities using advanced manufacturing technologies.</p>
                     </div>
                 </div>
-                <div class="position-relative">
-                    <div class="mask"></div>
+                <div class="position-relative py-5">
+                    <div class="mask "></div>
                     <iframe id="utubeVide" allow="autoplay" frameborder="0" width="100%" height="800"
                         src="https://www.youtube.com/embed/SPAwFgsyyZc?autoplay=1&showinfo=0&rel=0&amp;controls=0&amp;showinfo=0&amp;&mute=1&playlist=SPAwFgsyyZc&loop=1"
                         title="YouTube video player" frameborder="0"
@@ -139,16 +140,25 @@
         </section>
         <!-- ############################# about ############################## -->
         <section id="about" class="bg-light container-fluid">
-            <div class="row content px-md-5 px-4 py-5">
-                <div class="col-lg-5 col-sm-12 col-md-12 manImage d-flex align-items-center">
-                    <img src="assets/img/home0.svg" style="width:100%">
-                </div>
-                <div class="col-lg-7 col-sm-12 col-md-12" id="aboutUsMargin">
-                    <h4 class="text-justify fs-20 fWeight-400">About Us</h4>
+            <div class="row content px-md-5 px-2 py-5">
+                <div class="col-lg-5 col-sm-12 col-md-12 manImage">
+                    <div class="d-md-none d-block">
+                        <h4 class="text-justify fs-20 fWeight-400">About Us</h4>
                     <p class="text-dark fs-36 fWeight-500">Let Us Help You Find The
                         Home Of Your
                         Dreams.
                     </p>
+                    </div>
+                    <img src="assets/img/home0.svg" style="width:100%">
+                </div>
+                <div class="col-lg-7 col-sm-12 col-md-12 pt-4 pt-md-0" id="aboutUsMargin">
+                    <div class="d-md-block d-none">
+                        <h4 class="text-justify fs-20 fWeight-400">About Us</h4>
+                    <p class="text-dark fs-36 fWeight-500">Let Us Help You Find The
+                        Home Of Your
+                        Dreams.
+                    </p>
+                    </div>
                     <p class="text-justify fs-20 fWeight-200">
                         We are pleased to present our very first ReMo Home in all of its glory. This new oasis
                         is
@@ -178,11 +188,11 @@
             </div>
         </section>
 
-        <!-- !-- ############################# section ##############################  -->
+        <!-- ############################# section ##############################  -->
         <section id="problemText" class="section-bg container-fluid">
-            <div class="py-4 px-md-5 px-4" id="perfectChoice">
-                <h1 class="text-light fs-36 fWeight-600 py-4">Why Remo Homes Is The Perfect Choice?</h1>
-                <div class="row pt-5">
+            <div class="py-4 px-md-5 px-2" id="perfectChoice">
+                <p class="text-light fs-36 fWeight-600 py-4 m-0">Why Remo Homes Is The Perfect Choice?</p>
+                <div class="row pt-md-5 pt-0">
                     <div class="col-lg-1 col-md-1">
                         <h1 class="text-light number">01</h1>
                     </div>
@@ -194,7 +204,7 @@
                     </div>
                 </div>
 
-                <div class="row pt-5">
+                <div class="row pt-md-5 pt-3">
                     <div class="col-lg-1 col-md-1">
                         <h1 class="text-light number">02</h1>
                     </div>
@@ -208,7 +218,7 @@
                     </div>
                 </div>
 
-                <div class="row pt-5 pb-5">
+                <div class="row pt-md-5 pt-3 pb-5">
                     <div class="col-lg-1 col-md-1">
                         <h1 class="text-light number">03</h1>
                     </div>
@@ -223,8 +233,8 @@
             </div>
         </section>
         <!-- !-- ############################# los angeles ##############################  -->
-        <section id="losAngeles" class="about bg-light container-fluid">
-            <div class="row px-md-5 px-4 py-5">
+        <section id="losAngeles" class="about d-md-block d-none bg-light container-fluid">
+            <div class="row px-md-5 px-2 py-5">
                 <div class="d-flex">
                     <img src="assets/img/vector.svg">
                     <p class="fs-36 fWeight-600 px-3">Beautiful Homes Builts In <b>Los
@@ -245,8 +255,8 @@
             </div>
         </section>
         <!-- !-- ############################# los angeles ##############################  -->
-        <section class="container-fluid">
-            <div class="row ps-md-5 ps-4 bg-light">
+        <section class="container-fluid d-md-block d-none">
+            <div class="row ps-md-5 ps-0 pb-md-5 pb-0 bg-light">
                 <div class="d-flex scroller gap-3">
                     <div class="col-xl-5 col-md-5 my-4 my-md-0 mx-3">
                         <img src="assets/img/home3.svg" style="width:100%; height: 45vh;">
@@ -271,47 +281,86 @@
                 </div>
             </div>
         </section>
+        <!-- !-- ############################# los angeles Mobile ##############################  -->
+        <section id="losAngeles" class="about d-md-none d-block bg-light container-fluid">
+            <div class="row px-md-5 px-2 py-4">
+                <div class="d-flex">
+                    <img src="assets/img/vector.svg">
+                    <p class="fs-30 fWeight-600 px-3 m-0">Beautiful Homes Builts In <b>Los
+                            Angeles</b></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid d-md-none d-block">
+            <div class="row bg-light">
+                <div class="col-12 my-3 px-3">
+                    <img src="assets/img/home3.svg" style="width:100%;">
+                </div>
+
+                <div class="col-12 my-3 px-3">
+                    <img src="assets/img/home1.svg" style="width:100%;">
+                </div>
+
+                <div class="col-12 my-3 px-3">
+                    <img src="assets/img/home6.svg" style="width:100%;">
+                </div>
+                <div class="col-12 my-3 px-3">
+                    <img src="assets/img/home7.svg" style="width:100%;">
+                </div>
+                <div class="col-12 my-3 px-3">
+                    <img src="assets/img/home8.svg" style="width:100%;">
+                </div>
+                <div class="col-12 my-3 px-3">
+                    <img src="assets/img/home9.svg" style="width:100%;">
+                </div>
+            </div>
+        </section>
         <!-- !-- ############################# rebuild ##############################  -->
         <section class="container-fluid bg-light">
-            <div id="problemText" class=" px-md-5 px-4 pe-0 align-items-center" style="margin-left: 1px;">
-                <div  class="p-0 row">
+            <div class="align-items-center" style="margin-left: 1px;">
+                <div class="px-md-5 px-2 row">
                     <div class="col-md-4 col-12 pe-0 p-0">
-                        <img src="assets/img/home4.svg" id="rebuildImage"
-                            style="width:100%; border-radius: 20px 0px 0px 20px;">
+                        <img src="assets/img/home4.svg" id="rebuildImage" style="width:100%; ">
                     </div>
-                    <div class="col-md-8 col-12" id="rebuild">
-                        <p class="text-light fs-40 fWeight-600">ReBuild 2022</p>
-                        <p class="text-justify text-color fs-20 fWeight-200">
-                            ReBuild 2022 was an invite-only leadership conclave focused on housing
-                            affordability, Sustainability and human-centered construction and design. We
-                            brought
-                            together policymakers, Non-profits, developers, technologists, and others that
-                            share
-                            our desire to make affordable, sustainable housing available to the masses. With
-                            opening remarks from LA Mayor Eric Garcetti and attendees from the Milken
-                            Institute,
-                            the CA Growth Council, and the California Secretary of Housing office, ReBuild
-                            gathered world-class thought leaders in a way that’s never been done before in
-                            the
-                            industry.
-                        </p>
-                        <p class="text-light text-justify fs-20 fWeight-200"> We thank you for joining us at the most
-                            anticipated PropTech & ConTech event of the year!
-                        </p>
-                        <div class="rebuildBtn py-3">
-                            <button
-                                class="fWeight-400 px-4 py-3 me-3 fs-20 mb-3 border-0 rounded-pill bg-dark text-light"
-                                data-toggle="tab" href="">Request an invite for reBuild 2022</button>
-                            <button class="fWeight-400 px-4 py-3 fs-20 mb-3 border-0 rounded-pill bg-light "
-                                data-toggle="tab" href="">View 2022 Highlight Reel</button>
+                    <div class="col-md-8 col-12 ps-md-5 ps-0" id="problemText">
+                        <div class="px-md-0 px-3">
+                            <p class="text-light fs-40 fWeight-600 m-0 py-2">ReBuild 2022</p>
+                            <p class="text-justify text-color fs-20 fWeight-200">
+                                ReBuild 2022 was an invite-only leadership conclave focused on housing
+                                affordability, Sustainability and human-centered construction and design. We
+                                brought
+                                together policymakers, Non-profits, developers, technologists, and others that
+                                share
+                                our desire to make affordable, sustainable housing available to the masses. With
+                                opening remarks from LA Mayor Eric Garcetti and attendees from the Milken
+                                Institute,
+                                the CA Growth Council, and the California Secretary of Housing office, ReBuild
+                                gathered world-class thought leaders in a way that’s never been done before in
+                                the
+                                industry.
+                            </p>
+                            <p class="text-light text-justify fs-20 fWeight-200"> We thank you for joining us at the
+                                most
+                                anticipated PropTech & ConTech event of the year!
+                            </p>
+                            <div class="rebuildBtn d-flex flex-md-row flex-column py-3">
+                                <button
+                                    class="fWeight-400 px-4 py-3 me-md-3 me-0 fs-20 mb-3 border-0 rounded-pill bg-dark text-light"
+                                    data-toggle="tab" href="">Request an invite for reBuild 2022</button>
+                                <button
+                                    class="fWeight-400 px-4 py-3 fs-20 mb-3 border-0 rounded-pill bg-light text-dark"
+                                    data-toggle="tab" href="">View 2022 Highlight Reel</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- !-- ############################# contact ##############################  -->
         <section id="problemText" class="contact container-fluid">
-            <div class="row py-5 px-md-5 px-4 mt-5">
-                <div class="col-md-7 col-sm-12 border-right border-1">
+            <div class="row py-5 px-md-5 px-2 mt-5">
+                <div class="col-md-7 col-12 border-right border-1">
                     <div class="text-center">
                         <div class="d-flex justify-content-center">
                             <h3 class="text-light text-light fs-40 fWeight-500">Get In Touch With Us
@@ -354,17 +403,17 @@
 
                 </div>
 
-                <div class="col-sm-12 col-md-5 d-flex justify-content-center align-items-center">
+                <div class="col-12 col-md-5 pt-md-0 pt-4 d-flex justify-content-center align-items-center">
                     <div>
                         <div class="d-flex flex-column justify-content-start">
                             <h1 class="text-light fs-40 fWeight-500">Contact Us Directly</h1>
 
                             <div class="d-flex flex-column mt-4">
                                 <a href="mailto: vkk@remo.homes" class="text-light fs-30 fWeight-200"><img
-                                        src="assets/img/messageBox.svg" class="me-4">vkk@remo.homes</a>
+                                        src="assets/img/messageBox.svg" class="me-md-4 me-3 mediaImg">vkk@remo.homes</a>
 
                                 <a href="tel:+1 (310)910-1132" class="text-light fs-30 fWeight-200"><img
-                                        src="assets/img/telephone.svg" class="me-4">(310)
+                                        src="assets/img/telephone.svg" class="me-md-4 me-3 mediaImg">(310)
                                     910-1132</a>
                             </div>
                             <div class="d-flex justify-content-start p-3 gap-3">
@@ -425,13 +474,13 @@
                                 <ul class="list-unstyled mb-2">
                                     <li class="mb-2 fs-20"><a href="tel:+1 (310)910-1132"
                                             class="text-decoration-none text-grey  fWeight-300"> <img
-                                                src="assets/img/telephone1.svg"  class="me-2 footerContactIcon">
+                                                src="assets/img/telephone1.svg" class="me-2 footerContactIcon">
                                             +1
                                             (310)
                                             910-1132</a></li>
                                     <li class="mb-2 fs-20"><a href="mailto: contactus@remo.homes"
                                             class="text-decoration-none text-grey fs-20 fWeight-300"><img
-                                                src="assets/img/messageBox1.svg"  class="me-2 footerContactIcon">
+                                                src="assets/img/messageBox1.svg" class="me-2 footerContactIcon">
                                             contactus@remo.homes</a></li>
 
                                 </ul>

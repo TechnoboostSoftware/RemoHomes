@@ -15,3 +15,18 @@
     font-weight: 500 !important;
     font-size: 20px !important;
 }
+
+#rebuildImage {
+    border-radius: 20px 0px 0px 20px;
+}
+@media only screen and (max-width: 576px) {
+    #rebuildImage {
+        border-radius: 0px;
+    }
+    .fs-30{
+        font-size: 16px;
+    }
+    .mediaImg{
+        width: 15%;
+    }
+}

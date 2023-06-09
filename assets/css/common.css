@@ -137,6 +137,9 @@
     .fs-30, .fs-36,.fs-40 {
         font-size: 24px;
     }
+    .fs-50 {
+        font-size: 30px;
+    }
     .footerContactIcon {
         width: 25px;
     }
