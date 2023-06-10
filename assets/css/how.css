@@ -15,7 +15,28 @@ div.scrollmenu {
     overflow: auto;
 }
 
+/*  #############################  mobile ########################### */
+
+@media only screen and (max-width: 1200px) {
+    .questionPill {
+        min-width: 250px;
+    }
+    .fs-20 {
+        font-size: 18px !important;
+    }
+}
+/*  #############################  mobile ########################### */
+
+@media only screen and (max-width: 767px) {
+    .questionPill {
+        min-width: 350px;
+    }
+}
+
 @media only screen and (max-width: 576px) {
+    .questionPill {
+        min-width: 250px;
+    }
     .questionPill {
         min-width: 250px;
     }
