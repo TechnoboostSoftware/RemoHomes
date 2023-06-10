@@ -5,9 +5,11 @@
     font-style: normal;
     color: #484848;
 }
-.bg-light{
+
+.bg-light {
     background: white !important;
 }
+
 .text-grey {
     color: #484848 !important;
 }
@@ -120,13 +122,76 @@
 #problemText {
     background-image: url("../img/blackBg.svg");
 }
-.text-color{
+
+.text-color {
     color: rgba(255, 255, 255, 0.8);
 }
+
+/*  #############################  mobile ########################### */
+
+@media only screen and (max-width: 1200px) {
+
+    .fs-20 {
+        font-size: 12px;
+    }
+
+    .fs-36 {
+        font-size: 25px;
+    }
+
+    .fs-50 {
+        font-size: 30px;
+    }
+}
+
+/*  #############################  mobile ########################### */
+
+@media only screen and (max-width: 767px) {
+    .fs-16 {
+        font-size: 16px;
+    }
+
+    .fs-18 {
+        font-size: 18px;
+    }
+
+    .fs-20 {
+        font-size: 20px;
+    }
+
+    .fs-25 {
+        font-size: 25px;
+    }
+
+
+    .fs-30 {
+        font-size: 30px;
+    }
+
+    .fs-36 {
+        font-size: 36px;
+    }
+
+    .fs-40 {
+        font-size: 40px;
+    }
+
+    .fs-50 {
+        font-size: 50px;
+    }
+
+    .FooterMediaIcon {
+        width: 10%;
+    }
+
+}
+
 /*  #############################  mobile ########################### */
 
 @media only screen and (max-width: 576px) {
-    .fs-20, .fs-16 {
+
+    .fs-20,
+    .fs-16 {
         font-size: 14px;
     }
 
@@ -134,17 +199,22 @@
         font-size: 16px;
     }
 
-    .fs-30, .fs-36,.fs-40 {
+    .fs-30,
+    .fs-36,
+    .fs-40 {
         font-size: 24px;
     }
+
     .fs-50 {
         font-size: 30px;
     }
+
     .footerContactIcon {
         width: 25px;
     }
-    .FooterMediaIcon{
-        width: 20%;
+
+    .FooterMediaIcon {
+        width: 15%;
     }
 
 }

@@ -19,14 +19,19 @@
 #rebuildImage {
     border-radius: 20px 0px 0px 20px;
 }
+
+
+/*  #############################  mobile ########################### */
 @media only screen and (max-width: 576px) {
     #rebuildImage {
         border-radius: 0px;
     }
-    .fs-30{
+
+    .fs-30 {
         font-size: 16px;
     }
-    .mediaImg{
+
+    .mediaImg {
         width: 15%;
     }
 }
