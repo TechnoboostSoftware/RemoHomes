@@ -16,16 +16,39 @@
     font-size: 20px !important;
 }
 
+.mediaImg {
+    width: 10%;
+}
+
 #rebuildImage {
     border-radius: 20px 0px 0px 20px;
 }
 
+.contact {
+    border-right: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+/*  #############################  mobile ########################### */
+
+@media only screen and (max-width: 767px) {
+    .contact {
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    }
+
+    .fs-2-7vw {
+        font-size: 30px;
+    }
+    .fs-2vw {
+        font-size: 20px;
+    }
+    #rebuildImage {
+        border-radius: 20px 20px 0px 0px;
+    }
+}
 
 /*  #############################  mobile ########################### */
 @media only screen and (max-width: 576px) {
-    #rebuildImage {
-        border-radius: 0px;
-    }
 
     .fs-30 {
         font-size: 16px;
@@ -34,4 +57,6 @@
     .mediaImg {
         width: 15%;
     }
+
+
 }

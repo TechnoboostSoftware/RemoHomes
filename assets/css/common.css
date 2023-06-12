@@ -46,8 +46,8 @@
     font-size: 1.5vw;
 }
 
-.fs-2-5vw {
-    font-size: 2.5vw;
+.fs-2-2vw {
+    font-size: 2.2vw;
 }
 
 .fs-30 {
@@ -127,16 +127,35 @@
     color: rgba(255, 255, 255, 0.8);
 }
 
+section {
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-top: -25px;
+}
+
+.curve {
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-top: -25px;
+}
+
+#rebuild {
+    background-image: url("../img/icon4.svg");
+    border-radius: 20px;
+}
+
 /*  #############################  mobile ########################### */
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1400px) {
 
     .fs-20 {
         font-size: 12px;
     }
+
     .fs-25 {
         font-size: 20px;
     }
+
     .fs-36 {
         font-size: 25px;
     }
@@ -148,9 +167,28 @@
 
 /*  #############################  mobile ########################### */
 
+@media only screen and (max-width: 1200px) {
+    .fs-1vw {
+        font-size: 0.8vw;
+    }
+
+    .fs-1-2vw {
+        font-size: 1vw;
+    }
+}
+
+/*  #############################  mobile ########################### */
+
 @media only screen and (max-width: 767px) {
     .fs-16 {
         font-size: 16px;
+    }
+
+    .fs-1vw, .fs-1-2vw {
+        font-size: 20px;
+    }
+    .fs-3vw {
+        font-size:40px;
     }
 
     .fs-18 {
@@ -192,8 +230,13 @@
 
 @media only screen and (max-width: 576px) {
 
+    #rebuildImage {
+        border-radius: 20px 20px 0px 0px !important;
+    }
+
     .fs-20,
-    .fs-16 {
+    .fs-16,
+    .fs-1vw {
         font-size: 14px;
     }
 
@@ -218,5 +261,6 @@
     .FooterMediaIcon {
         width: 15%;
     }
+
 
 }
