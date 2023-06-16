@@ -120,7 +120,7 @@
 }
 
 #problemText {
-    background-image: url("../img/blackBg.svg");
+    background-image: url("../img/bgImage.png");
 }
 
 .text-color {
@@ -146,7 +146,7 @@ section, #footer {
 
 /*  #############################  mobile ########################### */
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1000px) {
 
     .fs-20 {
         font-size: 12px;
