@@ -119,7 +119,7 @@
     background: #F5F5F5;
 }
 
-#problemText {
+#problemText, #contactus {
     background-image: url("../img/bgImage.png");
 }
 
