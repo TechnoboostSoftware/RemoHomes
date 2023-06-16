@@ -146,7 +146,7 @@ section, #footer {
 
 /*  #############################  mobile ########################### */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 991px) {
 
     .fs-20 {
         font-size: 12px;
@@ -163,6 +163,18 @@ section, #footer {
     .fs-50 {
         font-size: 30px;
     }
+
+    .navbar-collapse .navbar-nav .nav-link{
+        width: 100%;
+    }
+
+    .navbar-nav .nav-item .fs-16 {
+        font-size: 18px;
+    }
+    #navbarSupportedContent{
+        border-top: 0.5px solid rgba(255, 255, 255, 0.9);
+        margin-top: 10px;
+    }
 }
 
 /*  #############################  mobile ########################### */
@@ -176,6 +188,8 @@ section, #footer {
         font-size: 1vw;
     }
 }
+
+
 
 /*  #############################  mobile ########################### */
 
@@ -192,7 +206,7 @@ section, #footer {
     }
 
     .fs-18 {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .fs-20 {
@@ -230,6 +244,7 @@ section, #footer {
 
 @media only screen and (max-width: 576px) {
 
+   
     #rebuildImage {
         border-radius: 20px 20px 0px 0px !important;
     }
@@ -241,13 +256,13 @@ section, #footer {
     }
 
     .fs-25 {
-        font-size: 16px;
+        /* font-size: 16px; */
     }
 
     .fs-30,
     .fs-36,
     .fs-40 {
-        font-size: 24px;
+        /* font-size: 24px; */
     }
 
     .fs-50 {
@@ -262,5 +277,6 @@ section, #footer {
         width: 15%;
     }
 
+    
 
 }

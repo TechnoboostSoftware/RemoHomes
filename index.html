@@ -51,7 +51,7 @@
         <!-- ############################# NAVBAR ##############################-->
         <nav id="problemText" class="navbar navbar-expand-lg px-md-5 px-2 p-0 "
             style="position: sticky;top: 0px;z-index: 100;">
-            <div class="container-fluid py-4" style=" border-bottom: 0.5px solid rgba(255, 255, 255, 0.9);">
+            <div class="container-fluid py-4 px-0" style=" border-bottom: 0.5px solid rgba(255, 255, 255, 0.9);">
                 <a class="navbar-brand d-md-inline d-none" href="index.html"><img src="assets/img/icon.svg"></a>
                 <a class="navbar-brand d-md-none d-inline" href="index.html"><img src="assets/img/indexLogo.svg"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -60,29 +60,45 @@
                     <span class="navbar-toggler-icon"><img src="assets/img/indexToggle.svg"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 align-items-md-center align-items-start  ps-3 mb-lg-0">
-                        <li class="nav-item me-lg-4 me-1">
-                            <a class="fs-16 fWeight-400 pb-1 nav-link text-light" href="problem.html">The Problem</a>
-                        </li>
-                        <li class="nav-item me-lg-4 me-1">
-                            <a class="fs-16 fWeight-400 pb-1 nav-link text-light" href="solution.html">Our
-                                Solution</a>
-                        </li>
-                        <li class="nav-item me-lg-4 me-1">
-                            <a class="fs-16 fWeight-400 pb-1 nav-link text-light" href="how.html">How does it
-                                work?</a>
-                        </li>
-                        <li class="nav-item me-lg-4 me-1">
-                            <a class="fs-16 fWeight-400 pb-1 nav-link text-light" href="whyReMo.html">Why ReMo</a>
-                        </li>
-                        <li class="nav-item me-lg-4 me-1">
-                            <a class="fs-16 fWeight-400 pb-1 nav-link text-light" href="aboutus.html">About us</a>
-                        </li>
-                        <li class="nav-item ms-5"><a href="#contact" class="text-decoration-none">
-                                <button class="nav-link rounded-pill border-0 px-3 py-2 text-dark" id="talk"
-                                    onclick="letTalk()"><img src="assets/img/thumb.svg">Let's
-                                    Talk</button></a>
-                        </li>
+                    <ul class="navbar-nav ms-auto mb-2 align-items-md-center align-items-start  px-3 px-md-0 mb-lg-0">
+                        <a class="fWeight-400 pb-1 nav-link" href="problem.html">
+                            <li class="nav-item me-lg-4 me-1 d-flex justify-content-between align-items-center">
+                            <span class="text-light fs-16"> The Problem</span>
+                                <img class="d-block d-md-none" src="assets/img/white-arrow-right.svg" alt="">
+                            </li>
+                        </a>
+
+                        <a class="fWeight-400 pb-1 nav-link" href="solution.html">
+                            <li class="nav-item me-lg-4 me-1 d-flex justify-content-between align-items-center">
+                            <span class="text-light fs-16"> Our Solution</span>
+                                <img class="d-block d-md-none" src="assets/img/white-arrow-right.svg" alt="">
+                            </li>
+                        </a>
+
+                        <a class="fWeight-400 pb-1 nav-link" href="how.html">
+                            <li class="nav-item me-lg-4 me-1 d-flex justify-content-between align-items-center">
+                            <span class="text-light fs-16">How does it
+                                work?</span>
+                                <img class="d-block d-md-none" src="assets/img/white-arrow-right.svg" alt="">
+                            </li>
+                        </a>
+
+                        <a class="fWeight-400 pb-1 nav-link" href="whyReMo.html">
+                            <li class="nav-item me-lg-4 me-1 d-flex justify-content-between align-items-center">
+                            <span class="text-light fs-16">Why ReMo</span>
+                                <img class="d-block d-md-none" src="assets/img/white-arrow-right.svg" alt="">
+                            </li>
+                        </a>
+                        <a class="fWeight-400 pb-1 nav-link" href="aboutus.html">
+                            <li class="nav-item me-lg-4 me-1 d-flex justify-content-between align-items-center">
+                            <span class="text-light fs-16">About us</span>
+                                <img class="d-block d-md-none" src="assets/img/white-arrow-right.svg" alt="">
+                            </li>
+                        </a>
+                        <li class="nav-item ms-md-5 ms-0 mt-2 mt-0md-0"><a href="#contact" class="text-decoration-none">
+                            <button class="nav-link rounded-pill border-0 px-3 py-1 py-md-2 text-dark" id="talk" onclick="letTalk()"><img src="assets/img/thumb.svg">Let's
+                                Talk</button></a>
+                    </li>
                     </ul>
                 </div>
             </div>
@@ -213,7 +229,7 @@
         <section id="losAngeles" class="about d-md-block d-none bg-light container-fluid">
             <div class="row px-md-5 px-2 py-5">
                 <div class="d-flex">
-                    <img src="assets/img/vector.svg">
+                    <img src="assets/img/homeIcon.svg">
                     <p class="fs-36 fWeight-600 px-3">Beautiful Homes Builts In <b>Los
                             Angeles</b></p>
                 </div>
@@ -262,7 +278,7 @@
         <section id="losAngeles" class="about d-md-none d-block bg-light container-fluid">
             <div class="row px-md-5 px-2 py-4">
                 <div class="d-flex">
-                    <img src="assets/img/vector.svg">
+                    <img src="assets/img/homeIcon.svg">
                     <p class="fs-30 fWeight-600 px-3 m-0">Beautiful Homes Builts In <b>Los
                             Angeles</b></p>
                 </div>
@@ -303,7 +319,7 @@
                     <div class="col-md-8 col-12 px-md-5 px-0 pt-4">
                         <div class="px-md-0 px-3">
                             <p class="text-light fs-3vw fWeight-600 m-0 py-2">ReBuild 2022</p>
-                            <p class="text-justify text-color fs-1vw fWeight-200">
+                            <p class="text-justify text-color fs-16 fWeight-200">
                                 ReBuild 2022 was an invite-only leadership conclave focused on housing
                                 affordability, Sustainability and human-centered construction and design. We
                                 brought
@@ -317,7 +333,7 @@
                                 the
                                 industry.
                             </p>
-                            <p class="text-light text-justify fs-1vw fWeight-200"> We thank you for joining us at the
+                            <p class="text-light text-justify fs-16 fWeight-200"> We thank you for joining us at the
                                 most
                                 anticipated PropTech & ConTech event of the year!
                             </p>
@@ -415,7 +431,7 @@
                     <div class="col-md-5 col-12 text-start align-items-start">
                         <div class="pe-md-4 pe-0">
                             <img src="assets/img/icon2.svg" class="100%">
-                            <p class="fs-18 fWeight-200 pe-4">
+                            <p class="fs-18 fWeight-300 pe-4">
                                 We are not just building homes but instead taking a holistic approach
                                 required
                                 to
