@@ -5,7 +5,9 @@
     font-style: normal;
     color: #484848;
 }
-
+.bg-dark{
+    background: black !important;
+}
 .bg-light {
     background: white !important;
 }
@@ -66,6 +68,9 @@
 .fs-40 {
     font-size: 40px;
 }
+.fs-45 {
+    font-size: 45px;
+}
 
 .fs-36 {
     font-size: 36px;
@@ -119,7 +124,8 @@
     background: #F5F5F5;
 }
 
-#problemText, #contactus {
+#problemText,
+#contactus {
     background-image: url("../img/bgImage.png");
 }
 
@@ -127,7 +133,8 @@
     color: rgba(255, 255, 255, 0.8);
 }
 
-section, #footer {
+section,
+#footer {
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
     margin-top: -25px;
@@ -164,14 +171,15 @@ section, #footer {
         font-size: 30px;
     }
 
-    .navbar-collapse .navbar-nav .nav-link{
+    .navbar-collapse .navbar-nav .nav-link {
         width: 100%;
     }
 
     .navbar-nav .nav-item .fs-16 {
         font-size: 18px;
     }
-    #navbarSupportedContent{
+
+    #navbarSupportedContent {
         border-top: 0.5px solid rgba(255, 255, 255, 0.9);
         margin-top: 10px;
     }
@@ -198,11 +206,13 @@ section, #footer {
         font-size: 16px;
     }
 
-    .fs-1vw, .fs-1-2vw {
+    .fs-1vw,
+    .fs-1-2vw {
         font-size: 20px;
     }
+
     .fs-3vw {
-        font-size:40px;
+        font-size: 40px;
     }
 
     .fs-18 {
@@ -217,7 +227,6 @@ section, #footer {
         font-size: 25px;
     }
 
-
     .fs-30 {
         font-size: 30px;
     }
@@ -227,7 +236,10 @@ section, #footer {
     }
 
     .fs-40 {
-        font-size: 40px;
+        font-size: 20px;
+    }
+    .fs-45 {
+        font-size: 23px;
     }
 
     .fs-50 {
@@ -244,7 +256,7 @@ section, #footer {
 
 @media only screen and (max-width: 576px) {
 
-   
+
     #rebuildImage {
         border-radius: 20px 20px 0px 0px !important;
     }
@@ -255,15 +267,15 @@ section, #footer {
         font-size: 14px;
     }
 
-    .fs-25 {
-        /* font-size: 16px; */
-    }
+    /* .fs-25 {
+        font-size: 16px; 
+    } */
 
-    .fs-30,
+    /* .fs-30,
     .fs-36,
     .fs-40 {
-        /* font-size: 24px; */
-    }
+        font-size: 24px;
+     } */
 
     .fs-50 {
         font-size: 30px;
@@ -276,7 +288,5 @@ section, #footer {
     .FooterMediaIcon {
         width: 15%;
     }
-
-    
 
 }
