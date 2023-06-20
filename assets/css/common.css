@@ -5,9 +5,11 @@
     font-style: normal;
     color: #484848;
 }
-.bg-dark{
+
+.bg-dark {
     background: black !important;
 }
+
 .bg-light {
     background: white !important;
 }
@@ -68,6 +70,7 @@
 .fs-40 {
     font-size: 40px;
 }
+
 .fs-45 {
     font-size: 45px;
 }
@@ -151,6 +154,10 @@ section,
     border-radius: 20px;
 }
 
+.mediaImgPopup {
+    width: 15%;
+}
+
 /*  #############################  mobile ########################### */
 
 @media only screen and (max-width: 991px) {
@@ -202,12 +209,18 @@ section,
 /*  #############################  mobile ########################### */
 
 @media only screen and (max-width: 767px) {
+    .mediaImgPopup {
+        width: 20%;
+    }
+
     .fs-16 {
         font-size: 16px;
     }
-
+    .fs-2vw{
+        font-size: 25px;
+    }
     .fs-1vw,
-    .fs-1-2vw {
+    .fs-1-2vw,.fs-1-5vw {
         font-size: 20px;
     }
 
@@ -238,6 +251,7 @@ section,
     .fs-40 {
         font-size: 20px;
     }
+
     .fs-45 {
         font-size: 23px;
     }

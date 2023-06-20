@@ -94,8 +94,11 @@
                             </li>
                         </a>
                         <li class="nav-item ms-md-5 ms-0 mt-2 mt-0md-0"><a href="#contact" class="text-decoration-none">
-                            <button class="nav-link rounded-pill border-0 px-3 py-1 py-md-2 text-dark" id="talk" onclick="letTalk()"><img src="assets/img/thumb.svg">Let's
-                                Talk</button></a>
+                                <button class="nav-link rounded-pill border-0 px-3 py-1 py-md-2 text-dark" id="talk"
+                                    onclick="letTalk()" data-bs-toggle="modal" data-bs-target="#contactUs"><img
+                                        src="assets/img/thumb.svg">Let's
+                                    Talk</button></a>
+                        </li>
                     </li>
                     </ul>
                 </div>
@@ -334,6 +337,95 @@
                 </div>
             </div>
         </footer>
+        <!-- !-- ############################# contact ##############################  -->
+        <div id="contactUs" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content bg-dark">
+                    <div class="modal-body position-relative">
+                        <img src="assets/img/close-circle.svg" data-bs-dismiss="modal" aria-label="Close"
+                            class="px-3 position-absolute end-0">
+                        <div class="row py-5 px-md-5 px-2 mt-5">
+                            <div class="col-md-8 col-12">
+                                <div class="pe-md-5 pe-0 pb-md-0 pb-4 contact">
+                                    <div class="text-center">
+                                        <div class="d-flex justify-content-center">
+                                            <h3 class="text-light text-light fs-40 fWeight-500">Get In Touch With Us
+                                            </h3>
+                                            <img src="assets/img/telegram.svg" id="teleImage">
+                                        </div>
+
+                                        <p class="text-color my-4 px-md-5 px-2 fs-20 fWeight-200">Send us a message and
+                                            sign up for
+                                            the
+                                            waitlist
+                                            to be one
+                                            <br>
+                                            of the first to own a ReMo home!
+                                        </p>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <div class="mb-4">
+                                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="Your Name">
+                                        </div>
+                                        <div class="mb-4">
+                                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="Your Email">
+                                        </div>
+                                        <div class="mb-4">
+                                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="Subject">
+                                        </div>
+                                        <div class="mb-4">
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
+                                                placeholder="Your Message"></textarea>
+                                        </div>
+                                        <div class="mb-3">
+                                            <button type="button"
+                                                class="bg-light text-dark fs-20 fWeight-500 form-control submitButton">
+                                                Submit
+                                            </button>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-4 pt-md-0 pt-4 d-flex justify-content-center align-items-center">
+                                <div>
+                                    <div
+                                        class="d-flex flex-column justify-content-md-start justify-content-center align-items-md-start align-items-center">
+                                        <p class="text-light fs-2vw fWeight-500 Directly">Contact Us Directly:</p>
+                                        <div class="d-flex flex-column mt-md-4 mt-0 ">
+                                            <div class="d-flex align-items-center">
+                                                <img src="assets/img/messageBox.svg" class="me-md-4 me-3 mediaImgPopup">
+                                                <a href="mailto: vkk@remo.homes"
+                                                    class="text-light fs-1-5vw fWeight-200 text-decoration-none py-30">vkk@remo.homes</a>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <img src="assets/img/telephone.svg" class="me-md-4 me-3 mediaImgPopup">
+                                                <a href="tel:+1 (310)910-1132"
+                                                    class="text-light fs-1-5vw fWeight-200 text-decoration-none py-3">(310)
+                                                    910-1132</a>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-md-start justify-content-center py-3 gap-3">
+                                            <a href="https://twitter.com/remohomes" target="_blank"><img
+                                                    src="assets/img/indexTweeter.svg"></a>
+                                            <a href="https://www.linkedin.com/company/remo-homes/" target="_blank"><img
+                                                    src="assets/img/indexLinkedin.svg"></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 
 </html>
