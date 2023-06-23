@@ -1,6 +1,4 @@
-// function letTalk(){
-   
-// }
+
 function submit() {
     var Name = document.getElementById("Name");
     var emailAddress = document.getElementById("Email");
@@ -10,7 +8,7 @@ function submit() {
     var providerInfo = [Name, emailAddress, Subject, Message];
     for (let i = 0; i < providerInfo.length; i++) {
         if (providerInfo[i].value == "") {
-            providerInfo[i].style.border = "5px solid red";
+            providerInfo[i].style.border = "1px solid red";
             isError = true;
         }
     }
@@ -18,7 +16,7 @@ function submit() {
     emailBodyContent += '<b>Email :</b> ' + emailAddress.value + '<br> ';
     emailBodyContent += '<b>Message : </b> ' + Message.value + '<br>';
     var jsondata = {
-        "token": "uqx51lvs89",
+        "token": "gUXMeJn%P8gRVxMHRcC",
         "emailSubjectLine": Subject.value,
         "emailBodyContent": emailBodyContent
     }
@@ -35,7 +33,6 @@ function submit() {
             }
         },
         error: function (err) {
-            console.log("err")
         }
     });
 }

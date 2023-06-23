@@ -49,56 +49,62 @@
     <body>
 
         <!-- ############################# NAVBAR ##############################-->
-        <nav class="navbar navbar-expand-lg bg-light px-md-5 px-2" style="position: sticky;top: 0px;z-index: 100;">
-            <div class=" container-fluid">
+        <nav class="navbar navbar-expand-lg bg-light px-md-5 px-2 p-0 " style="position: sticky;top: 0px;z-index: 100;">
+            <div class="container-fluid py-4 px-0">
                 <a class="navbar-brand d-md-inline d-none" href="index.html"><img src="assets/img/blackLogo.svg"></a>
                 <a class="navbar-brand d-md-none d-inline" href="index.html"><img src="assets/img/logo.svg"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"><img src="assets/img/indexToggle.svg"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 align-items-md-center align-items-start  ps-3 mb-lg-0">
-                        <a class=" fWeight-400 pb-1 nav-link" href="problem.html">
-                            <li class="nav-item me-4 d-flex justify-content-between align-items-center">
+                    <ul class="navbar-nav ms-auto mb-2 align-items-md-center align-items-start  px-3 px-md-0 mb-lg-0">
+                        <a class="fWeight-400 pb-1 nav-link" href="problem.html">
+                            <li class="nav-item me-lg-4 me-1 d-flex justify-content-between align-items-center">
                                 <span class="fs-16 text-dark"> The Problem</span>
                                 <img class="d-block d-md-none" src="assets/img/black-arrow-right.svg" alt="">
                             </li>
                         </a>
 
-                        <a class=" fWeight-400 pb-1 nav-link" href="solution.html">
-                            <li class="nav-item me-4 d-flex justify-content-between align-items-center">
-                                <span class="fs-16 text-secondary"> Our Solution</span>
-                                <img class="d-block d-md-none" src="assets/img/black-arrow-right.svg" alt="">
-                            </li>
-                        </a>
-                        <a class=" fWeight-400 pb-1 nav-link" href="how.html">
-                            <li class="nav-item me-4 d-flex justify-content-between align-items-center">
-                                <span class="fs-16 text-secondary">How does it work?</span>
+                        <a class="fWeight-400 pb-1 nav-link" href="solution.html">
+                            <li class="nav-item me-lg-4 me-1 d-flex justify-content-between align-items-center">
+                                <span class="fs-16 text-navColor"> Our Solution</span>
                                 <img class="d-block d-md-none" src="assets/img/black-arrow-right.svg" alt="">
                             </li>
                         </a>
 
-                        <a class=" fWeight-400 pb-1 nav-link" href="whyReMo.html">
-                            <li class="nav-item me-4 d-flex justify-content-between align-items-center">
-                                <span class="fs-16 text-secondary">Why ReMo</span>
+                        <a class="fWeight-400 pb-1 nav-link" href="how.html">
+                            <li class="nav-item me-lg-4 me-1 d-flex justify-content-between align-items-center">
+                                <span class="fs-16 text-navColor">How does it
+                                    work?</span>
                                 <img class="d-block d-md-none" src="assets/img/black-arrow-right.svg" alt="">
                             </li>
                         </a>
 
-                        <a class=" fWeight-400 pb-1 nav-link" href="aboutus.html">
-                            <li class="nav-item me-4 d-flex justify-content-between align-items-center">
-                                <span class="fs-16 text-secondary">About us</span>
+                        <a class="fWeight-400 pb-1 nav-link" href="whyReMo.html">
+                            <li class="nav-item me-lg-4 me-1 d-flex justify-content-between align-items-center">
+                                <span class="fs-16 text-navColor">Why ReMo</span>
                                 <img class="d-block d-md-none" src="assets/img/black-arrow-right.svg" alt="">
                             </li>
                         </a>
-                        <li class="nav-item ms-md-5 ms-0 mt-2 mt-0md-0"><a href="#contact" class="text-decoration-none">
-                                <button class="nav-link rounded-pill border-0 px-3 py-1 py-md-2 text-dark" id="talk"
-                                    data-bs-toggle="modal" data-bs-target="#contactUs"><img
-                                        src="assets/img/thumb.svg"  onclick="letTalk()">Let's
+                        <a class="fWeight-400 pb-1 nav-link" href="aboutus.html">
+                            <li class="nav-item me-lg-4 me-1 d-flex justify-content-between align-items-center">
+                                <span class="fs-16 text-navColor">About us</span>
+                                <img class="d-block d-md-none" src="assets/img/black-arrow-right.svg" alt="">
+                            </li>
+                        </a>
+                        <a class="fWeight-400 pb-1 nav-link" href="partners.html">
+                            <li class="nav-item me-lg-4 me-1 d-flex justify-content-between align-items-center">
+                                <span class="fs-16 text-navColor">Our Support Partners</span>
+                                <img class="d-block d-md-none" src="assets/img/black-arrow-right.svg" alt="">
+                            </li>
+                        </a>
+                        <li class="nav-item ms-md-5 ms-0 mt-2 mt-0md-0"><a href="#contactus"
+                                class="text-decoration-none">
+                                <button class="nav-link rounded-pill border-0 px-3 py-1 py-md-2 text-dark" data-bs-toggle="modal" data-bs-target="#contactUs"
+                                    id="talk"><img src="assets/img/thumb.svg">Let's
                                     Talk</button></a>
-                        </li>
                         </li>
                     </ul>
                 </div>
@@ -329,12 +335,12 @@
                     <div class="modal-body position-relative">
                         <img src="assets/img/close-circle.svg" data-bs-dismiss="modal" aria-label="Close"
                             class="px-3 position-absolute end-0">
-                        <div class="row py-5 px-md-5 px-2 mt-5">
+                        <div class="row px-md-5 px-2">
                             <div class="col-md-8 col-12">
                                 <div class="pe-md-5 pe-0 pb-md-0 pb-4 contact">
                                     <div class="text-center">
-                                        <div class="d-flex justify-content-center">
-                                            <h3 class="text-light text-light fs-40 fWeight-500">Get In Touch With Us
+                                        <div class="d-flex justify-content-center  align-items-center">
+                                            <h3 class="text-light text-light fs-40 fWeight-500 m-0">Get In Touch With Us
                                             </h3>
                                             <img src="assets/img/telegram.svg" id="teleImage">
                                         </div>
@@ -351,17 +357,20 @@
 
                                     <div class="text-center">
                                         <div class="mb-4">
-                                            <input type="text" onclick="removeErrorBorder('Name')"  class="form-control emptyInput" id="Name" placeholder="Your Name">
+                                            <input type="text" onclick="removeErrorBorder('Name')"
+                                                class="form-control emptyInput" id="Name" placeholder="Your Name">
                                         </div>
                                         <div class="mb-4">
-                                            <input type="email" onclick="removeErrorBorder('Email')"  class="form-control emptyInput" id="Email"
-                                                placeholder="Your Email">
+                                            <input type="email" onclick="removeErrorBorder('Email')"
+                                                class="form-control emptyInput" id="Email" placeholder="Your Email">
                                         </div>
                                         <div class="mb-4">
-                                            <input type="text" onclick="removeErrorBorder('Subject')"  class="form-control emptyInput" id="Subject" placeholder="Subject">
+                                            <input type="text" onclick="removeErrorBorder('Subject')"
+                                                class="form-control emptyInput" id="Subject" placeholder="Subject">
                                         </div>
                                         <div class="mb-4">
-                                            <textarea onclick="removeErrorBorder('Message')"  class="form-control emptyInput" id="Message" rows="4"
+                                            <textarea onclick="removeErrorBorder('Message')"
+                                                class="form-control emptyInput" id="Message" rows="4"
                                                 placeholder="Your Message"></textarea>
                                         </div>
                                         <div class="mb-3">
@@ -412,4 +421,5 @@
         </div>
     </body>
     <script src="assets/js/common.js"></script>
+
 </html>
