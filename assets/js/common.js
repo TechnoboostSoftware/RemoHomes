@@ -20,19 +20,35 @@ function submit() {
         "emailSubjectLine": Subject.value,
         "emailBodyContent": emailBodyContent
     }
-
+    $(".submitButton").attr("disabled", true)
     $.ajax({
         type: "POST",
         url: "https://es.technoboost.in/api/v1/mail-send",
         data: JSON.stringify(jsondata),
         contentType: "application/json; charset=utf-8",
         success: function (result) {
-            if (Subject.value != "" && Name.value != "" && emailAddress.value != "" && Message.value != "") {
+            $(".submitButton").attr("disabled", false)
+            $(".alert").toggle('alert')
+            $(".alert").addClass('show')
+            if (result.hasOwnProperty('status') && result.status == 'NOT_FOUND') {
+                $(".alert").removeClass('alert-success')
+                $(".alert").addClass('alert-danger')
+                $("#alertMessage").html('<strong> Someting went wrong try again </b>')
+            } else {
+                $(".alert").addClass('alert-success')
+                $(".alert").removeClass('alert-danger')
+                $("#alertMessage").html(' <strong>Thankyou for contacting us!  </strong> Our team will get back to you.')
                 $("#contactUs").modal('toggle');
                 $(".emptyInput").val('')
             }
         },
         error: function (err) {
+            $("#sendMessageBtn").attr("disabled", false)
+            $(".alert").toggle('alert')
+            $(".alert").addClass('show')
+            $(".alert").removeClass('alert-success')
+            $(".alert").addClass('alert-danger')
+            $("#alertMessage").html('<strong> Someting went wrong try again </b>')
         }
     });
 }
