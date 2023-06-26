@@ -102,8 +102,8 @@
                         </a>
                         <li class="nav-item ms-md-5 ms-0 mt-2 mt-0md-0"><a href="#contactus"
                                 class="text-decoration-none">
-                                <button class="nav-link rounded-pill border-0 px-3 py-1 py-md-2 text-dark"
-                                    id="talk"><img src="assets/img/thumb.svg">Let's
+                                <button class="nav-link rounded-pill border-0 px-3 py-1 py-md-2 text-dark" id="talk"
+                                    onclick="talk()"><img src="assets/img/thumb.svg">Let's
                                     Talk</button></a>
                         </li>
                     </ul>
@@ -430,7 +430,13 @@
                                 of the first to own a ReMo home!
                             </p>
                         </div>
-
+                        
+                        <div class="alert alert-success alert-dismissible fade" style="display: none;" role="alert">
+                            <span id="alertMessage"> <strong>Thankyou for contacting us! </strong> Our team
+                                will
+                                get back to you.</span>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
                         <div class="text-center">
                             <div class="mb-4">
                                 <input type="text" onclick="removeErrorBorder('Name')" class="form-control emptyInput"

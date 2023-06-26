@@ -1,4 +1,3 @@
-
 function submit() {
     var Name = document.getElementById("Name");
     var emailAddress = document.getElementById("Email");
@@ -38,7 +37,6 @@ function submit() {
                 $(".alert").addClass('alert-success')
                 $(".alert").removeClass('alert-danger')
                 $("#alertMessage").html(' <strong>Thankyou for contacting us!  </strong> Our team will get back to you.')
-                $("#contactUs").modal('toggle');
                 $(".emptyInput").val('')
             }
         },
@@ -52,7 +50,11 @@ function submit() {
         }
     });
 }
-
+function talk() {
+    $(".alert").css("display", "none");
+    $(".emptyInput").val('')
+    $(".emptyInput").css('border', 'none');
+}
 function removeErrorBorder(id) {
     document.getElementById(id).style.border = 'none'
 }
