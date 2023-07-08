@@ -35,13 +35,13 @@
         <!-- Template Main CSS File -->
         <link href="assets/css/aboutus.css" rel="stylesheet">
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
-            integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
-            integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css"
+            href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+        <link rel="stylesheet" type="text/css"
+            href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
         <link href="assets/css/common.css" rel="stylesheet">
     </head>
@@ -122,13 +122,13 @@
         <!-- ############################# aboutUs ##############################-->
         <section id="aboutUs" class="container-fluid  bg-light pt-3">
             <div class="problemText px-md-5 px-0 py-5">
-                <p class="text-justify fs-20 fWeight-300">Our design and manufacturing company is minority and disabled
-                    veteran-owned with accomplished and talented executives from the aerospace, semiconductor, and
-                    traditional construction industries.
-                </p>
-                <p class="text-justify fs-20 fWeight-300">All of us have baffled at the industry's resistance to
-                    change. Things have gotten particularly worse since the COVID-19 pandemic due to construction
-                    workers shortage and supply chain interruptions.
+                <p class=" fWeight-600 fs-30 text-dark">Our Story</p>
+                <p class="text-justify fs-20 fWeight-300">ReMo is a minority- and disabled veteran-owned design and
+                    manufacturing company, led by accomplished and talented executives from the aerospace,
+                    semiconductor, and traditional construction industries. We have been continually astonished by the
+                    industry’s resistance to change, which has only worsened since the COVID-19 pandemic due to
+                    construction worker shortages and supply chain disruptions. We are single-mindedly driven to bring
+                    about structural changes in the industry.
                 </p>
                 <div class="row py-3">
                     <div class="col-md-6 col-12"><img src="assets/img/aboutUs-1.svg" class="w-100 py-md-0 py-4"></div>
@@ -161,69 +161,132 @@
         </section>
         <!-- ############################# Teams ##############################-->
         <section id="Teams" class="container-fluid bg-grey ">
-            <div class="px-md-5 px-0 py-3">
+            <div class="px-md-5 px-0 py-5">
                 <div class="d-flex justify-content-between pt-5">
                     <P class="fWeight-600 fs-30 text-dark">Our Teams</P>
                     <div class="arrowImg d-md-inline d-none">
-                        <button class="btn"><img src="assets/img/teamRight.svg"></button>
-                        <button class="btn"><img src="assets/img/teamleft.svg"></button>
+                        <img src="assets/img/teamRight.svg" role="button" class="previousBtn">
+                        <img src="assets/img/teamleft.svg" role="button" class="nextBtn">
                     </div>
                 </div>
-                <div class="row pb-5 pt-3 px-md-0 px-2 justify-content-center">
-                    <div class=" col-md-4 col-12 pb-3">
-                        <div
-                            class="d-flex flex-column text-justify h-100 align-items-center px-2 py-2 bg-light rounded">
-                            <img src="assets/img/team-1.svg" class="py-3">
-                            <div class="d-flex flex-column align-items-center">
-                                <p class="fs-20 text-center fWeight-700 text-dark">Vamsi Kumar Kotla, MBA</p>
-                                <button
-                                    class="fWeight-400 px-4 border-1 py-2 fs-16 rounded-pill mb-3 bg-light text-dark">Co-Founder
-                                    and CEO</button>
-                                <p class="fs-20 fWeight-200 text-jusify pt-3 px-3">We will work closely with you to
-                                    understand your business goals, evaluate your IT needs, and develop a
-                                    comprehensive strategy to align technology with your startup's
-                                    objectives. We will assess your existing infrastructure, identify areas
-                                    for improvement, and recommend the most suitable solutions to optimize
-                                    your operations</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class=" col-md-4 col-12 pb-3">
-                        <div
-                            class="d-flex flex-column text-justify h-100 align-items-center px-2 py-2 bg-light rounded">
-                            <img src="assets/img/team-2.svg" class="py-3">
-                            <div class="d-flex flex-column align-items-center">
-                                <p class="fs-20 text-center fWeight-700 text-dark">Ryan Blowers</p>
-                                <button
-                                    class="fWeight-400 px-4 border-1 py-2 fs-16 rounded-pill mb-3 bg-light text-dark">Co-Founder
-                                    and Head of Manufacturing</button>
-                                <p class="fs-20 fWeight-200 text-jusify pt-3 px-3">A US Navy veteran and ex-SpaceX
-                                    project leader.
-                                    He has 23 years of experience in all facets of aviation repair, design, pattern &
-                                    tool making, overhaul, and prototyping. He specializes in creating both virtual and
-                                    real prototypes and coordinating digital manufacturing from BIM (Building
-                                    Information Modelling) to robot-assisted manufacturing.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class=" col-md-4 col-12 pb-3">
-                        <div
-                            class="d-flex flex-column text-justify h-100 align-items-center px-2 py-2 bg-light rounded">
-                            <img src="assets/img/team-3.svg" class="py-3">
-                            <div class="d-flex flex-column align-items-center">
-                                <p class="fs-20 text-center fWeight-700 text-dark">Dr. Partha S Dutta</p>
-                                <button
-                                    class="fWeight-400 px-4 border-1 py-2 fs-16 rounded-pill mb-3 bg-light text-dark">Co-Founder
-                                    and Chief Scientist</button>
-                                <p class="fs-20 fWeight-200 text-jusify pt-3 px-3">A serial entrepreneur, renowned
-                                    academician,
-                                    expert on advanced manufacturing and smart lighting. Leading microgravity
-                                    manufacturing at the International Space Station (ISS). Filed 50+ US patents
-                                    successfully</p>
-                            </div>
+                <div class="members">
+                    <div
+                        class="d-flex flex-column text-justify h-100 align-items-center px-2 py-2 mx-3 bg-light rounded">
+                        <img src="assets/img/team-1.svg" class="py-3">
+                        <div class="d-flex flex-column align-items-center">
+                            <p class="fs-20 text-center fWeight-700 text-dark">Vamsi Kumar Kotla, MBA</p>
+                            <button
+                                class="fWeight-400 px-4 border-1 py-2 fs-16 rounded-pill mb-3 bg-light text-dark">Co-Founder
+                                and CEO</button>
+                            <p class="fs-20 fWeight-200 text-jusify pt-3 px-3">A systems thinker and serial
+                                entrepreneur with two decades of experience in the construction and IT industries,
+                                Vamsi is dedicated to crafting human-centered business ideas and solutions. He is
+                                actively involved in local nonprofits and government initiatives to address housing
+                                affordability and climate change issues.</p>
                         </div>
                     </div>
 
+                    <div
+                        class="d-flex flex-column text-justify h-100 align-items-center px-2 py-2 mx-3 bg-light rounded">
+                        <img src="assets/img/team-2.svg" class="py-3">
+                        <div class="d-flex flex-column align-items-center">
+                            <p class="fs-20 text-center fWeight-700 text-dark">Ryan Blowers</p>
+                            <button
+                                class="fWeight-400 px-4 border-1 py-2 fs-16 rounded-pill mb-3 bg-light text-dark">Co-Founder
+                                and Head of Manufacturing</button>
+                            <p class="fs-20 fWeight-200 text-jusify pt-3 px-3">A US Navy veteran and former SpaceX
+                                project leader, Ryan brings 23 years of experience in aviation repair, design,
+                                pattern & tool making, overhaul, and prototyping. He specializes in creating virtual
+                                and physical prototypes and coordinating digital manufacturing from BIM to
+                                robot-assisted production.</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="d-flex flex-column text-justify h-100 align-items-center px-2 py-2 mx-3 bg-light rounded">
+                        <img src="assets/img/team-3.svg" class="py-3">
+                        <div class="d-flex flex-column align-items-center">
+                            <p class="fs-20 text-center fWeight-700 text-dark">Dr. Partha S Dutta</p>
+                            <button
+                                class="fWeight-400 px-4 border-1 py-2 fs-16 rounded-pill mb-3 bg-light text-dark">CCo-Founder
+                                and Chief Scientist</button>
+                            <p class="fs-20 fWeight-200 text-jusify pt-3 px-3">A serial entrepreneur, acclaimed
+                                academic, and expert in advanced manufacturing and smart lighting, Dr. Dutta leads
+                                microgravity manufacturing at the International Space Station (ISS) and has
+                                successfully filed 50+ US patents.</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="d-flex flex-column text-justify h-100 align-items-center px-2 py-2 mx-3 bg-light rounded">
+                        <img src="assets/img/team-4.svg" class="py-3">
+                        <div class="d-flex flex-column align-items-center">
+                            <p class="fs-20 text-center fWeight-700 text-dark">Ben Salley</p>
+                            <button class="fWeight-400 px-4 border-1 py-2 fs-16 rounded-pill mb-3 bg-light text-dark">3D
+                                Architectural Modeler</button>
+                            <p class="fs-20 fWeight-200 text-jusify pt-3 px-3">Ben has a decade of experience in
+                                construction management and 15 years in 3D visualization for architectural and product
+                                design firms. He has also worked as a 3D Animator/Renderer for various film production
+                                companies.</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="d-flex flex-column text-justify h-100 align-items-center px-2 py-2 mx-3 bg-light rounded">
+                        <img src="assets/img/team-5.svg" class="py-3">
+                        <div class="d-flex flex-column align-items-center">
+                            <p class="fs-20 text-center fWeight-700 text-dark">Alexandra Ferrarese</p>
+                            <button
+                                class="fWeight-400 px-4 border-1 py-2 fs-16 rounded-pill mb-3 bg-light text-dark">Chief
+                                of Staff</button>
+                            <p class="fs-20 fWeight-200 text-jusify pt-3 px-3">With a passion for content creation,
+                                interpersonal communication, and sustainability, Alexandra is an experienced team leader
+                                skilled in culture building, business operations, relationship management, and hands-on
+                                growth initiatives.</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="d-flex flex-column text-justify h-100 align-items-center px-2 py-2 mx-3 bg-light rounded">
+                        <img src="assets/img/team-6.svg" class="py-3">
+                        <div class="d-flex flex-column align-items-center">
+                            <p class="fs-20 text-center fWeight-700 text-dark">Varma Namburi, Assoc. AIA</p>
+                            <button
+                                class="fWeight-400 px-4 border-1 py-2 fs-16 rounded-pill mb-3 bg-light text-dark">Sustainability
+                                and Lighting Advisor</button>
+                            <p class="fs-20 fWeight-200 text-jusify pt-3 px-3">As a licensed architect and expert in
+                                lighting, sustainability, and circular economy, Varma brings two decades of experience
+                                in electrical, lighting, and lighting systems.</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="d-flex flex-column text-justify h-100 align-items-center px-2 py-2 mx-3 bg-light rounded">
+                        <img src="assets/img/team-7.svg" class="py-3">
+                        <div class="d-flex flex-column align-items-center">
+                            <p class="fs-20 text-center fWeight-700 text-dark">Dan Casale</p>
+                            <button class="fWeight-400 px-4 border-1 py-2 fs-16 rounded-pill mb-3 bg-light text-dark">
+                                Director of Business Development and Government Contracting</button>
+                            <p class="fs-20 fWeight-200 text-jusify pt-3 px-3">Dan navigates various aspects of business
+                                development, including go-to-market strategy and federal/local contracting
+                                opportunities.</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="d-flex flex-column text-justify h-100 align-items-center px-2 py-2 mx-3 bg-light rounded">
+                        <img src="assets/img/team-8.svg" class="py-3">
+                        <div class="d-flex flex-column align-items-center">
+                            <p class="fs-20 text-center fWeight-700 text-dark">Dave Bud</p>
+                            <button class="fWeight-400 px-4 border-1 py-2 fs-16 rounded-pill mb-3 bg-light text-dark">IT
+                                and Sales</button>
+                            <p class="fs-20 fWeight-200 text-jusify pt-3 px-3">A seasoned sales veteran and recent MBA
+                                graduate, Dave brings empathy and persistence to ReMo's sales organization. He has
+                                experience managing marquee accounts and deploying AI and Big Data solutions to uncover
+                                insights from real-world data.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -236,14 +299,7 @@
                     The
                     Industry</p>
                 <div class="aboutImg d-flex flex-md-row flex-column justify-content-center align-items-center">
-                    <button class="btn d-md-inline d-none"><img src="assets/img/right.svg"></button>
                     <img src="assets/img/aboutImg-1.svg" width="80%" class="px-md-3 px-1">
-                    <button class="btn d-md-inline d-none"><img src="assets/img/left.svg"></button>
-                    <div class="d-md-none d-flex mt-3">
-                        <button class="btn d-md-none d-inline"><img src="assets/img/right.svg" class="arrows"></button>
-                        <button class="btn d-md-none d-inline"><img src="assets/img/left.svg" class="arrows"></button>
-                    </div>
-
                 </div>
             </div>
         </section>
@@ -425,6 +481,22 @@
             </div>
         </div>
         <script src="assets/js/common.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <script type="text/javascript">
+            window.addEventListener('scroll', (event) => {
+                // handle the scroll event 
+                console.log(event)
+            });
+            $('.members').slick({
+                dots: true,
+                nextArrow: '.nextBtn',
+                prevArrow: '.previousBtn',
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+            });
+        </script>
     </body>
 
 </html>

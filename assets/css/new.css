@@ -33,16 +33,20 @@ section {
     border-top-left-radius: 30px;
     margin-top: -25px;
 }
-.mask{
+
+.mask {
     position: absolute;
     width: 100%;
     height: 100%;
 }
-.scrollImg{
-    overflow: auto;
+
+.scrollImg img {
+    width: 25%;
+    height: 350px;
 }
+
 @media only screen and (max-width: 1200px) {
-    iframe{
+    iframe {
         height: 530px;
     }
 }
@@ -66,13 +70,17 @@ section {
     #rebuildImage {
         border-radius: 20px 20px 0px 0px;
     }
-    iframe{
+
+    iframe {
         height: 330px;
     }
 }
 
 /*  #############################  mobile ########################### */
 @media only screen and (max-width: 576px) {
+    .scrollImg img {
+        width: 100%;
+    }
 
     .fs-30 {
         font-size: 16px;
@@ -81,7 +89,8 @@ section {
     .mediaImg {
         width: 15%;
     }
-    iframe{
+
+    iframe {
         height: 250px;
     }
 
