@@ -17,7 +17,10 @@
 }
 
 .mediaImg {
-    width: 10%;
+    width: 35px;
+}
+.mediaImg-2 {
+    width: 40px;
 }
 
 #rebuildImage {
@@ -42,8 +45,9 @@ section {
 
 .scrollImg img {
     width: 25%;
-    height: 350px;
+    /* height: 350px; */
 }
+
 
 @media only screen and (max-width: 1200px) {
     iframe {
@@ -87,7 +91,7 @@ section {
     }
 
     .mediaImg {
-        width: 15%;
+        width: 30px;
     }
 
     iframe {
