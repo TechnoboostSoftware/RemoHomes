@@ -42,7 +42,7 @@ function submit() {
                 }
             },
             error: function (err) {
-                $("#sendMessageBtn").attr("disabled", false)
+                $(".submitButton").attr("disabled", false)
                 $(".alert").toggle('alert')
                 $(".alert").addClass('show')
                 $(".alert").removeClass('alert-success')
